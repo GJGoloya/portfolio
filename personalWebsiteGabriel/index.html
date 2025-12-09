@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="darkmode.js" defer></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Goloya Portfolio</title>
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>      
+      <li><a href="#">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contacts">Contact</a></li>
+    </ul>
+    <div class="left">
+      <a href="#">Gab.</a>
+    </div>
+    <div class="right">
+      <ul>
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+        <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+        <li class="hideOnMobile"><a href="#certifications">Certifications</a></li>
+        <li class="hideOnMobile"><a href="#contacts">Contact</a></li>
+        <button id="themeSwitch">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+        </button>
+        <li class="menuButton"onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>        
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home">
+      <div class="text">
+        <h1>Hello, I'm <span class="name">Gabriel</span>.</h1>
+        <h2>Front-End Developer & 3D Artist</h2>
+        <p>I am Gabriel Joseph V. Goloya, a Bachelor of Science in Information Technology student at Far Eastern University - Institute of Technology. I have hands-on experience with front-end development, 3D modeling and animation, game design, and quality assurance.</p>
+        <p><br>I enjoy turning creative ideas into real products, ensuring consistency, efficiency, and quality. In addition to my technical knowledge and skills, I have strong collaboration, communication, and decision-making skills, honed through several years of experience in leadership roles within school organizations.</p>
+        <p><br>I am eager to contribute to companies by applying my technical knowledge and skills to deliver effective, user-focused digital solutions. I am committed to continuous growth, learning, and collaboration while supporting innovative projects.</p>
+      </div>
+      <div class="image">
+        <img src="gabgoloyapic.jpg" alt="Gabriel Goloya Picture">
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class = "text">
+        <h2>PROJECTS</h2>
+      </div>
+      <section class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img id="slide-1" src="follower-front.png" alt="follower">
+            <img id="slide-2" src="follower-walk.png" alt="follower walk">
+            <img id="slide-3" src="follower-att.png" alt="follower attack">
+            <img id="slide-4" src="follower-att2.png" alt="follower attack 2">
+            <img id="slide-5" src="follower-hit.png" alt="follower hit">
+            <img id="slide-6" src="follower-die.png" alt="follower death">
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+            <a href="#slide-4"></a>
+            <a href="#slide-5"></a>
+            <a href="#slide-6"></a>
+          </div>
+        </div>
+        <div class="container-text">
+          <h3><b>The Follower</b></h3>
+          <h4>Flora and Fauna</h4>
+          <p>
+            Flora and Fauna, our capstone project, is a story-driven 3D role-playing game designed to raise awareness 
+            about deforestation and poaching. As the 3D artist, I contributed by creating <b>The Follower</b>, an enemy that 
+            accompanies the first boss. The character was modeled in <b>Autodesk Maya 2026</b> as a low-poly asset optimized for low-end devices, 
+            fully rigged and animated with five states (idle, walk, attack, hit, death). 
+            <br><br>This project demonstrates my skills in <b>character animation, optimization, and gameplay integration</b>.
+          </p>
+        </div>
+      </section>
+      <section class="container">
+                <div class="container-text">
+          <h3><b>The Hound</b></h3>
+          <h4>Flora and Fauna</h4>
+          <p>
+            I also created <b>The Hound</b>, an enemy that 
+            accompanies the fourth boss. The character was modeled in <b>Autodesk Maya 2026</b> as a low-poly asset optimized for low-end devices, 
+            fully rigged and animated with five states (idle, walk, attack, hit, death) like the follower. 
+            <br><br>This project further demonstrates my skills in <b>character animation, optimization, and gameplay integration</b>.
+          </p>
+        </div>
+        <div class="slider-wrapper">
+          <div class="slider">
+            <img id="slide-7" src="hound-front.png" alt="hound">
+            <img id="slide-8" src="hound-walk.png" alt="hound walk">
+            <img id="slide-9" src="hound-att.jpg" alt="hound attack">
+            <img id="slide-10" src="hound-att2.png" alt="hound attack 2">
+            <img id="slide-11" src="hound-hit.png" alt="hound hit">
+            <img id="slide-12" src="hound-die.png" alt="hound death">
+          </div>
+          <div class="slider-nav">
+            <a href="#slide-7"></a>
+            <a href="#slide-8"></a>
+            <a href="#slide-9"></a>
+            <a href="#slide-10"></a>
+            <a href="#slide-11"></a>
+            <a href="#slide-12"></a>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="skills">
+      <div class = "text">
+        <h2>SKILLS</h2>
+      </div>
+      <div class="cells">
+        <div class="cell">
+          <img src="html-logo.webp" alt="html logo">
+          <span>HTML5</span>
+        </div>
+        <div class="cell">
+          <img src="css-logo.webp" alt="css logo">
+          <span>CSS3</span>
+        </div>
+        <div class="cell">
+          <img src="javascript-logo.webp" alt="javascript logo">
+          <span>JavaScript</span>
+        </div>
+        <div class="cell">
+          <img src="PHP-logo.png" alt="php logo">
+          <span>PHP</span>
+        </div>
+        <div class="cell">
+          <img src="Java-logo.png" alt="java logo">
+          <span>Java</span>
+        </div>
+      </div>
+      <div class="cells2">
+        <div class="cell">
+          <img src="python-logo.png" alt="python logo">
+          <span>Python</span>
+        </div>
+        <div class="cell">
+          <img src="cpp-logo.png" alt="c++ logo">
+          <span>C++</span>
+        </div>
+        <div class="cell">
+          <img src="csharp-logo.png" alt="c# logo">
+          <span>C#</span>
+        </div>
+        <div class="cell">
+          <img src="maya-logo.png" alt="maya logo">
+          <span>Maya</span>
+        </div>
+        <div class="cell">
+          <img src="unity-logo-light.png" alt="unity logo">
+          <span>Unity</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications">
+      <div class = "text">
+        <h2>CERTIFICATIONS</h2>
+      </div>
+      <div class="certs">
+        <a href="https://www.credly.com/badges/2dcd9f0d-5685-4ec1-9f63-1eccedc8e319/public_url">
+          <div class="cert">
+            <img src="ITS-js.png" alt="its javascript">
+            <p><b>ITS Certified JavaScript</b></p>
+          </div>
+        </a>
+        <a href="https://www.credly.com/badges/a6df6a49-a0fa-438c-80c3-fd31af20015b/public_url">
+          <div class="cert">
+            <img src="ITS-python.png" alt="its python">
+            <p><b>ITS Certified Python</b></p>
+          </div>
+        </a>
+        <a href="https://www.credly.com/badges/fb1af866-7544-4ab5-8808-4256c132a5c1/public_url">
+          <div class="cert">
+            <img src="ITS-networking.png" alt="its networking">
+            <p><b>ITS Certified Networking</b></p>
+          </div>
+        </a>
+      </div>
+      <div class="certs2">
+        <a href="https://www.credly.com/badges/a92ad16b-2055-40cd-95cf-e3130e1bb900/public_url">
+          <div class="cert">
+            <img src="PMI-cert.png" alt="pmi pm ready">
+            <p><b>Project Management Ready</b></p>
+          </div>
+        </a>
+        <a href="https://www.credly.com/badges/64c7f4c1-e5f8-4306-a9f8-14ada7de9038/public_url">
+          <div class="cert">
+            <img src="maya-cert.png" alt="maya certified">
+            <p><b>Autodesk Maya Certified User</b></p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="contacts">
+      <div class = "text">
+        <h2>GET IN TOUCH</h2>
+      </div>
+      <a href="https://www.facebook.com/Gabriel.Goloya">
+        <div class="contact">
+          <img src="fb-logo.png" alt="fb">
+          <span><b>Facebook</b></span>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/gabriel-joseph-goloya-492a89380/">
+        <div class="contact">
+          <img src="linkedin-logo.png" alt="linkedin">
+          <span><b>LinkedIn</b></span>
+        </div>
+      </a>
+      <a href="https://github.com/GJGoloya">
+        <div class="contact">
+          <img src="github-logo.png" alt="github">
+          <span><b>Github</b></span>
+        </div>
+      </a>
+      </a>
+      <a href="mailto:gabgoloya@gmail.com">
+        <div class="contact">
+          <img src="gmail-logo.png" alt="email">
+          <span><b>Email me: gabgoloya@gmail.com</b></span>
+        </div>
+      </a>
+    </section>
+  </main>
+  <div class="footer">
+    <p>© 2025 Gabriel Joseph Goloya. All rights reserved.</p>
+  </div>
+  <script>
+    function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+    }
+    function showSidebar() {
+    document.querySelector('.sidebar').classList.add('open');
+    }
+    function hideSidebar() {
+   document.querySelector('.sidebar').classList.remove('open');
+    }
+  </script>
+</body>
+</html>
